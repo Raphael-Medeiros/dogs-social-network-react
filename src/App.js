@@ -1,10 +1,20 @@
 import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Feed from './Components/Pages/Feed'
+import Login from './Components/Pages/Login/Login'
+import Header from './Components/Partials/Header'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Feed />}/>
+          <Route path="/login/*" element={<Login />}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
