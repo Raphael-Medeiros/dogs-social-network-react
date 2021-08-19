@@ -1,12 +1,12 @@
-import React from 'react'
-import { Routes } from 'react-router-dom'
+import React from "react";
+import Input from "../../Forms/Input";
 
 const Login = () => {
-    return (
-        <Routes>
-            
-        </Routes>
-    )
-}
+  return (
+    <section>
+      <Input label="Usuario" name="Usuario" error={null} />
+    </section>
+  );
+};
 
-export default Login
+export default Login;

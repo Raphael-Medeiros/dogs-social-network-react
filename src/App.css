@@ -5,4 +5,20 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+img {
+    width: 100%;
 }
