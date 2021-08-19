@@ -8,5 +8,22 @@
 
 .container {
     max-width: 800px;
+    height: 70px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.userIcon {
+    width: 20px;
+    height: 20px;
+    background: url('../../Assets/usuario.svg') no-repeat center center;
 }
