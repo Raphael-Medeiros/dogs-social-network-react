@@ -14,6 +14,6 @@
 
 ### Components
 
-- [ ] Header
+- [x] Header
 - [ ] Footer
 - [ ] Loading
