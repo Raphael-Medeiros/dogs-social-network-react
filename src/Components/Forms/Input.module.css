@@ -1,0 +1,21 @@
+.label{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.input{
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.input:hover,
+.input:focus {
+    outline: none;
+    border: 1px solid #fb1;
+}
+.error{
+    margin: 0;
+    font-weight: bold;
+    color: #f10;
+}

@@ -4,7 +4,7 @@ import Input from "../../Forms/Input";
 const Login = () => {
   return (
     <section>
-      <Input label="Usuario" name="Usuario" error={null} />
+      <Input label="Usuario" name="Usuario" error={"usuario invalido"} />
     </section>
   );
 };
