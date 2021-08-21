@@ -3,6 +3,7 @@ import Styles from "./Login.module.css";
 
 import Input from "../../Forms/Input";
 import Title from "../../Partials/Title";
+import Button from "../../Forms/Button";
 
 const Login = () => {
   return (
@@ -10,9 +11,12 @@ const Login = () => {
       <div className={Styles.background}></div>
       <div></div>
       <div className={Styles.content}>
-        <Title>Entrar</Title>
-        <Input label="Usuario" name="Usuario" error={null} />
-        <Input label="Senha" name="Senha" error={null} />
+        <div>
+          <Title>Entrar</Title>
+          <Input label="Usuario" name="Usuario" error={null} />
+          <Input label="Senha" name="Senha" type="password" error={null} />
+          <Button>Entrar</Button>
+        </div>
       </div>
     </section>
   );
