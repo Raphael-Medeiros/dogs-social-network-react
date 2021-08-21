@@ -5,6 +5,8 @@
     font-size: 3rem;
     position: relative;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 .title::before{
     content: '';

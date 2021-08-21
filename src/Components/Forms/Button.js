@@ -1,8 +1,12 @@
 import React from "react";
 import Styles from "./Button.module.css";
 
-const Button = ({ children }) => {
-  return <button className={Styles.button}>{children}</button>;
+const Button = ({ children, margin }) => {
+  return (
+    <button className={Styles.button} style={{ margin: margin }}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

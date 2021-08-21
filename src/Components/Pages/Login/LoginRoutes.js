@@ -5,7 +5,8 @@ import Login from "./Login";
 const LoginRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      {" "}
+      <Route path="/" element={<Login />} />{" "}
     </Routes>
   );
 };
