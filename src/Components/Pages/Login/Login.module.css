@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    max-width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    color: #333;
+}
+.content{
+    width: 100%;
+    padding: 1rem;
+}
+.background{
+    display: block;
+    width: 50%;
+    height: calc(100vh - 70px);
+    background: url("../../../Assets/login.jpg") no-repeat center content-box;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}

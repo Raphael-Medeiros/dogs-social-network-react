@@ -3,7 +3,7 @@ import styles from "./Input.module.css";
 
 const Input = ({ label, name, error, ...props }) => {
   return (
-    <>
+    <div className={styles.iptContainer}>
       <label htmlFor={name} className={styles.label}>
         {label}
       </label>
@@ -15,7 +15,7 @@ const Input = ({ label, name, error, ...props }) => {
         className={styles.input}
       />
       {error && <p className={styles.error}>{error}</p>}
-    </>
+    </div>
   );
 };
 

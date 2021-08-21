@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
+
+.title{
+    font-family: "Spectral", serif;
+    font-size: 3rem;
+    position: relative;
+    color: #333;
+}
+.title::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fb1;
+    position: absolute;
+    margin-top: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+    z-index: -1;
+}
