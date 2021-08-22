@@ -19,8 +19,12 @@ const useForm = (type) => {
   function validate(valueVal) {
     if (!valueVal || valueVal.length === 1) {
       setErro("Preencha um valor");
-    } else if (!validacao[type].rejex.test(valueVal)) {
-      setErro("Preencha um email valido ");
+    } else if (type == "email") {
+      if (!validacao[type].rejex.test(valueVal)) {
+        setErro("Preencha um email valido ");
+      } else {
+        setErro(null);
+      }
     } else {
       setErro(null);
     }
